@@ -29,11 +29,11 @@
 ./build.ps1
 ```
 
-构建产物会写入上级 `outputs` 目录。
+构建产物会写入本目录的 `dist` 目录。
 
 ## 使用
 
-先安装并登录 Codex，再运行构建出的 `CodexQuota-Token-v5.exe`。程序只读取当前本机 Codex 会话；如果看不到数据，请先启动或登录 Codex。
+先安装并登录 Codex，再运行 `dist\CodexQuota-Token-v5.exe`。程序只读取当前本机 Codex 会话；如果看不到数据，请先启动或登录 Codex。
 
 ## 免责声明
 

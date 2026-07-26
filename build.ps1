@@ -1,5 +1,5 @@
 $ErrorActionPreference = 'Stop'
-$out = Join-Path $PSScriptRoot '..\..\outputs'
+$out = Join-Path $PSScriptRoot 'dist'
 New-Item -ItemType Directory -Force -Path $out | Out-Null
 $csc = "$env:WINDIR\Microsoft.NET\Framework64\v4.0.30319\csc.exe"
 if (-not (Test-Path $csc)) { $csc = "$env:WINDIR\Microsoft.NET\Framework\v4.0.30319\csc.exe" }
